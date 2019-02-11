@@ -1,1 +1,1 @@
-# homework of cs571
+# cs571 homework
