@@ -1,8 +1,0 @@
-sudo dd if=/dev/zero of=/swapfile bs=1024 count=2097152
-sudo chown root:root /swapfile
-sudo chmod 0600 /swapfile
-sudo mkswap /swapfile
-sudo swapon /swapfile
-
-docker run -v /home/ubuntu/hw2:/mnt:rw -e "RESOURCE=/home/ubuntu/hw2/res/" hw2
-docker run -v /home/ubuntu/hw2 -e "RESOURCE=/home/ubuntu/hw2/res/" hw2
