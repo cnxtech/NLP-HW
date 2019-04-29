@@ -398,7 +398,7 @@ class NamedEntityRecognizer(Component):
         self.word_embeddings, self.case_embeddings, self.idx2Label, self.word_idx, self.word_idx, self.label_idx, self.case_idx, self.char_idx = save_data
 
         dataset = self.prepare_data(data)
-        model = self.load(os.path.join(resource_dir, 'hw3-model'))
+        model = self.load(os.path.join(self.resource_dir, 'hw3-model'))
 
         correctLabels = []
         predLabels = []
