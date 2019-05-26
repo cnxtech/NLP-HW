@@ -1,1 +1,5 @@
-# This is the backup for the cs571 homework.
+# This is the backup for the NLP homeworks.
+The tasks in this project includes:
+#### `Hashtag segmentation`
+#### `Sentiment Analysis`
+#### `Named Entity Recognition`
